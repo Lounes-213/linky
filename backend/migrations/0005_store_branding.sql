@@ -1,0 +1,1 @@
+ALTER TABLE stores ADD COLUMN primary_color TEXT NOT NULL DEFAULT '#5267FF';

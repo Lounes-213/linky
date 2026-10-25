@@ -1,0 +1,11 @@
+ALTER TABLE stores ADD COLUMN username TEXT DEFAULT '';
+ALTER TABLE stores ADD COLUMN subcategory TEXT DEFAULT '';
+ALTER TABLE stores ADD COLUMN maps_url TEXT DEFAULT '';
+ALTER TABLE stores ADD COLUMN website TEXT DEFAULT '';
+ALTER TABLE stores ADD COLUMN social_links TEXT DEFAULT '{}';
+ALTER TABLE stores ADD COLUMN settings TEXT DEFAULT '{}';
+ALTER TABLE stores ADD COLUMN keywords TEXT DEFAULT '[]';
+ALTER TABLE stores ADD COLUMN languages TEXT DEFAULT '{"fr":true,"ar":false,"en":false}';
+ALTER TABLE stores ADD COLUMN country TEXT DEFAULT '';
+ALTER TABLE stores ADD COLUMN state TEXT DEFAULT '';
+ALTER TABLE stores ADD COLUMN badge_verified INTEGER DEFAULT 0;

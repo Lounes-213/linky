@@ -1,0 +1,3 @@
+ALTER TABLE users ADD COLUMN country TEXT DEFAULT '';
+ALTER TABLE users ADD COLUMN state TEXT DEFAULT '';
+ALTER TABLE profile_links ADD COLUMN image_url TEXT DEFAULT '';

@@ -1,0 +1,31 @@
+name = "linky-api"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+account_id = "b0d4360e776fb60b3e311df855c265de"
+
+[vars]
+ENVIRONMENT = "production"
+# Firebase API keys are public identifiers; Firebase validates the ID token.
+# Configure ALLOWED_ORIGINS with the deployed Flutter web domains before deploy.
+ALLOWED_ORIGINS = "https://linky-to.pages.dev,https://app.linky.to,https://linky-web.pages.dev,https://*.linky-to.pages.dev"
+# Point this at the public Cloudflare R2 custom domain before deployment.
+IMAGE_PUBLIC_BASE_URL = "https://pub-d15f4b0d1755489294b2202b6f918bd3.r2.dev"
+# Deploy the Node/Puppeteer importer separately; set the matching secret with Wrangler.
+IMPORT_SERVICE_URL = "https://importer.linky.to"
+SOFIZPAY_SECRET_KEY = "GA5HH2K646FKJLQREF6ODWEOJXBB37ZGGJQC7TIH7KIL76HYR3JJD3S3"
+FRONTEND_URL = "https://linky-to.pages.dev"
+API_URL = "https://linky-api.bensebalounes2.workers.dev"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "linky-db"
+database_id = "de5ad069-3ee5-41ce-a5f0-e46f08c9cb0e"
+
+[[r2_buckets]]
+binding = "IMAGES"
+bucket_name = "linky-images"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "254b7e261fcc4285a2aaa8b49d9e5635"

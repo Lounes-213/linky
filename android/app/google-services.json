@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "985067510832",
+    "project_id": "linky213",
+    "storage_bucket": "linky213.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985067510832:android:cfe3df6c763ed730b361f5",
+        "android_client_info": {
+          "package_name": "com.example.linky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985067510832-m8ra7qllgonjvqgstppsmfi1jk44o48s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6vwB2NFuMRLUhYTb9Drsm_hooz_XVQmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985067510832-m8ra7qllgonjvqgstppsmfi1jk44o48s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
